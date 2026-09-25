@@ -1,0 +1,34 @@
+{
+  "slug": "native-30",
+  "id": "30",
+  "route": "native",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 5.0,
+    "n_mos": 4.5,
+    "m_mos": 4.5,
+    "adherence": 4.5
+  },
+  "annotated_issue_count": 0,
+  "scene": "Two community-theater organizers adapt a performance after learning that an accessibility accommodation conflicts with part of the current staging. The change is feasible but requires rehearsal, and assumptions were made without consulting the affected audience.",
+  "role_a": {
+    "name": "Avery",
+    "profile": "Explain difficult points in plain language and check whether the explanation landed. Adapt to questions instead of repeating the same wording."
+  },
+  "role_b": {
+    "name": "Casey",
+    "profile": "Test claims for missing assumptions and inconvenient counterexamples. Challenge ideas without dismissing the person, and acknowledge when a concern has been answered."
+  },
+  "tags": [
+    "Planning",
+    "theater, accessibility, planning"
+  ],
+  "route_note": "Two role-conditioned streams generate content and timing through shared acoustic feedback.",
+  "assets": {
+    "track-a": "assets/native-30/track-a.wav",
+    "track-b": "assets/native-30/track-b.wav",
+    "mix": "assets/native-30/mix.wav"
+  }
+}

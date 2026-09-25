@@ -1,0 +1,34 @@
+{
+  "slug": "native-37",
+  "id": "37",
+  "route": "native",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 4.5,
+    "quality_b": 4.5,
+    "n_mos": 5.0,
+    "m_mos": 5.0,
+    "adherence": 5.0
+  },
+  "annotated_issue_count": 0,
+  "scene": "Two longtime collaborators meet after one quietly stopped working on a personal art project. The unfinished work still matters to both of them, but pressure to resume immediately could deepen the burnout that caused the pause.",
+  "role_a": {
+    "name": "Finley",
+    "profile": "Bring momentum and concrete suggestions to the exchange. Make space for slower reasoning and change pace when the other person signals concern."
+  },
+  "role_b": {
+    "name": "Lane",
+    "profile": "Notice shifts in tone, overlooked details, and what remains unsaid. Speak selectively but contribute substantive observations rather than only brief agreement."
+  },
+  "tags": [
+    "Support Reflection",
+    "creativity, burnout, support"
+  ],
+  "route_note": "Two role-conditioned streams generate content and timing through shared acoustic feedback.",
+  "assets": {
+    "track-a": "assets/native-37/track-a.wav",
+    "track-b": "assets/native-37/track-b.wav",
+    "mix": "assets/native-37/mix.wav"
+  }
+}

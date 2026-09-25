@@ -1,0 +1,26 @@
+{
+  "id": "37",
+  "order_id": "iclr-2027-wave001-000559",
+  "kind": "r79",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 4.5,
+    "quality_b": 4.5,
+    "n_mos": 5.0,
+    "m_mos": 5.0,
+    "adherence": 5.0
+  },
+  "scene": "Two longtime collaborators meet after one quietly stopped working on a personal art project. The unfinished work still matters to both of them, but pressure to resume immediately could deepen the burnout that caused the pause.",
+  "interaction_type": "support-reflection",
+  "role_a": {
+    "name": "Finley",
+    "profile": "Bring momentum and concrete suggestions to the exchange. Make space for slower reasoning and change pace when the other person signals concern."
+  },
+  "role_b": {
+    "name": "Lane",
+    "profile": "Notice shifts in tone, overlooked details, and what remains unsaid. Speak selectively but contribute substantive observations rather than only brief agreement."
+  },
+  "voice_source": "LibriTTS-R clean subset (CC BY 4.0)",
+  "route_note": "两条角色流共享声学反馈，内容与时序在生成过程中自主展开。"
+}

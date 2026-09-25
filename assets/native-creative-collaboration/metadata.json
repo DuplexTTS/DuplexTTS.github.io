@@ -1,0 +1,26 @@
+{
+  "id": "01",
+  "order_id": "iclr-2027-wave001-000111",
+  "kind": "r79",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 4.5,
+    "quality_b": 5.0,
+    "n_mos": 5.0,
+    "m_mos": 5.0,
+    "adherence": 4.0
+  },
+  "scene": "During a theater rehearsal, an actor and a director revisit a scene that feels emotionally flat. The script permits several interpretations, opening night is close, and a staging change would affect another scene later in the play.",
+  "interaction_type": "creative-collaboration",
+  "role_a": {
+    "name": "Arden",
+    "profile": "Enjoy testing ideas and making a friendly challenge out of difficult choices. Keep the shared outcome more important than proving that you were right."
+  },
+  "role_b": {
+    "name": "Jamie",
+    "profile": "Use concrete memories and sensory detail to make ideas vivid. Leave room for the other person to connect, question, or reinterpret the story."
+  },
+  "voice_source": "LibriTTS-R clean subset (CC BY 4.0)",
+  "route_note": "两条角色流共享声学反馈，内容与时序在生成过程中自主展开。"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "scripted-en-12",
+  "id": "12",
+  "route": "scripted-en",
+  "language": "en",
+  "duration_seconds": 128.72033333333334,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 5.0,
+    "n_mos": 5.0,
+    "m_mos": 5.0
+  },
+  "annotated_issue_count": 0,
+  "topic": "Psychology and emotions",
+  "tags": [
+    "normal",
+    "backchannel",
+    "interruption",
+    "side_talk"
+  ],
+  "route_note": "A structured script is aligned and composed into turns, backchannels, interruptions, and side talk.",
+  "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+  "assets": {
+    "track-a": "assets/scripted-en-12/track-a.wav",
+    "track-b": "assets/scripted-en-12/track-b.wav",
+    "mix": "assets/scripted-en-12/mix.wav"
+  }
+}

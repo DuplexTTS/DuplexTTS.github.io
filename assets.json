@@ -1,0 +1,298 @@
+[
+  {
+    "slug": "native-37",
+    "id": "37",
+    "route": "native",
+    "language": "en",
+    "duration_seconds": 60,
+    "annotated_issue_count": 0,
+    "scene": "Two longtime collaborators meet after one quietly stopped working on a personal art project. The unfinished work still matters to both of them, but pressure to resume immediately could deepen the burnout that caused the pause.",
+    "role_a": {
+      "name": "Finley",
+      "profile": "Bring momentum and concrete suggestions to the exchange. Make space for slower reasoning and change pace when the other person signals concern."
+    },
+    "role_b": {
+      "name": "Lane",
+      "profile": "Notice shifts in tone, overlooked details, and what remains unsaid. Speak selectively but contribute substantive observations rather than only brief agreement."
+    },
+    "tags": [
+      "Support Reflection",
+      "creativity, burnout, support"
+    ],
+    "assets": {
+      "track-a": "assets/native-37/track-a.wav",
+      "track-b": "assets/native-37/track-b.wav",
+      "mix": "assets/native-37/mix.wav"
+    },
+    "utmos_a": 3.89,
+    "utmos_b": 3.446
+  },
+  {
+    "slug": "native-30",
+    "id": "30",
+    "route": "native",
+    "language": "en",
+    "duration_seconds": 60,
+    "annotated_issue_count": 0,
+    "scene": "Two community-theater organizers adapt a performance after learning that an accessibility accommodation conflicts with part of the current staging. The change is feasible but requires rehearsal, and assumptions were made without consulting the affected audience.",
+    "role_a": {
+      "name": "Avery",
+      "profile": "Explain difficult points in plain language and check whether the explanation landed. Adapt to questions instead of repeating the same wording."
+    },
+    "role_b": {
+      "name": "Casey",
+      "profile": "Test claims for missing assumptions and inconvenient counterexamples. Challenge ideas without dismissing the person, and acknowledge when a concern has been answered."
+    },
+    "tags": [
+      "Planning",
+      "theater, accessibility, planning"
+    ],
+    "assets": {
+      "track-a": "assets/native-30/track-a.wav",
+      "track-b": "assets/native-30/track-b.wav",
+      "mix": "assets/native-30/mix.wav"
+    },
+    "utmos_a": 3.941,
+    "utmos_b": 3.764
+  },
+  {
+    "slug": "native-01",
+    "id": "01",
+    "route": "native",
+    "language": "en",
+    "duration_seconds": 60,
+    "annotated_issue_count": 0,
+    "scene": "During a theater rehearsal, an actor and a director revisit a scene that feels emotionally flat. The script permits several interpretations, opening night is close, and a staging change would affect another scene later in the play.",
+    "role_a": {
+      "name": "Arden",
+      "profile": "Enjoy testing ideas and making a friendly challenge out of difficult choices. Keep the shared outcome more important than proving that you were right."
+    },
+    "role_b": {
+      "name": "Jamie",
+      "profile": "Use concrete memories and sensory detail to make ideas vivid. Leave room for the other person to connect, question, or reinterpret the story."
+    },
+    "tags": [
+      "Creative Collaboration",
+      "theater, performance, interpretation"
+    ],
+    "assets": {
+      "track-a": "assets/native-01/track-a.wav",
+      "track-b": "assets/native-01/track-b.wav",
+      "mix": "assets/native-01/mix.wav"
+    },
+    "utmos_a": 3.866,
+    "utmos_b": 3.815
+  },
+  {
+    "slug": "native-36",
+    "id": "36",
+    "route": "native",
+    "language": "en",
+    "duration_seconds": 60,
+    "annotated_issue_count": 0,
+    "scene": "Two relatives talk after weeks of sharing care for an older family member. One feels guilty about needing a day away, while the other is exhausted and afraid that any discussion of limits will sound selfish.",
+    "role_a": {
+      "name": "Arden",
+      "profile": "Enjoy testing ideas and making a friendly challenge out of difficult choices. Keep the shared outcome more important than proving that you were right."
+    },
+    "role_b": {
+      "name": "Jordan",
+      "profile": "Keep the discussion moving toward an actionable choice. Be direct about tradeoffs, but do not force a decision before hearing material concerns."
+    },
+    "tags": [
+      "Support Reflection",
+      "family, caregiving, boundaries"
+    ],
+    "assets": {
+      "track-a": "assets/native-36/track-a.wav",
+      "track-b": "assets/native-36/track-b.wav",
+      "mix": "assets/native-36/mix.wav"
+    },
+    "utmos_a": 3.83,
+    "utmos_b": 3.803
+  },
+  {
+    "slug": "scripted-en-03",
+    "id": "03",
+    "route": "scripted-en",
+    "language": "en",
+    "duration_seconds": 96.280125,
+    "annotated_issue_count": 0,
+    "topic": "Ethics and morality",
+    "tags": [
+      "normal",
+      "backchannel",
+      "side_talk",
+      "interruption"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-en-03/track-a.wav",
+      "track-b": "assets/scripted-en-03/track-b.wav",
+      "mix": "assets/scripted-en-03/mix.wav"
+    },
+    "utmos_a": 4.256,
+    "utmos_b": 3.825
+  },
+  {
+    "slug": "scripted-en-21",
+    "id": "21",
+    "route": "scripted-en",
+    "language": "en",
+    "duration_seconds": 103.72025,
+    "annotated_issue_count": 0,
+    "topic": "News and current affairs",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-en-21/track-a.wav",
+      "track-b": "assets/scripted-en-21/track-b.wav",
+      "mix": "assets/scripted-en-21/mix.wav"
+    },
+    "utmos_a": 4.132,
+    "utmos_b": 4.125
+  },
+  {
+    "slug": "scripted-en-12",
+    "id": "12",
+    "route": "scripted-en",
+    "language": "en",
+    "duration_seconds": 128.72033333333334,
+    "annotated_issue_count": 0,
+    "topic": "Psychology and emotions",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-en-12/track-a.wav",
+      "track-b": "assets/scripted-en-12/track-b.wav",
+      "mix": "assets/scripted-en-12/mix.wav"
+    },
+    "utmos_a": 4.207,
+    "utmos_b": 3.86
+  },
+  {
+    "slug": "scripted-en-17",
+    "id": "17",
+    "route": "scripted-en",
+    "language": "en",
+    "duration_seconds": 129.28016666666667,
+    "annotated_issue_count": 0,
+    "topic": "Climate and weather",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-en-17/track-a.wav",
+      "track-b": "assets/scripted-en-17/track-b.wav",
+      "mix": "assets/scripted-en-17/mix.wav"
+    },
+    "utmos_a": 4.014,
+    "utmos_b": 4.091
+  },
+  {
+    "slug": "scripted-zh-20",
+    "id": "20",
+    "route": "scripted-zh",
+    "language": "zh",
+    "duration_seconds": 61.08,
+    "annotated_issue_count": 0,
+    "topic": "数码科技",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-zh-20/track-a.wav",
+      "track-b": "assets/scripted-zh-20/track-b.wav",
+      "mix": "assets/scripted-zh-20/mix.wav"
+    },
+    "utmos_a": 2.791,
+    "utmos_b": 2.884
+  },
+  {
+    "slug": "scripted-zh-02",
+    "id": "02",
+    "route": "scripted-zh",
+    "language": "zh",
+    "duration_seconds": 68.84,
+    "annotated_issue_count": 0,
+    "topic": "经济金融",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-zh-02/track-a.wav",
+      "track-b": "assets/scripted-zh-02/track-b.wav",
+      "mix": "assets/scripted-zh-02/mix.wav"
+    },
+    "utmos_a": 2.705,
+    "utmos_b": 2.662
+  },
+  {
+    "slug": "scripted-zh-05",
+    "id": "05",
+    "route": "scripted-zh",
+    "language": "zh",
+    "duration_seconds": 101.2,
+    "annotated_issue_count": 0,
+    "topic": "气候气象",
+    "tags": [
+      "normal",
+      "interruption",
+      "backchannel",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-zh-05/track-a.wav",
+      "track-b": "assets/scripted-zh-05/track-b.wav",
+      "mix": "assets/scripted-zh-05/mix.wav"
+    },
+    "utmos_a": 2.725,
+    "utmos_b": 2.892
+  },
+  {
+    "slug": "scripted-zh-10",
+    "id": "10",
+    "route": "scripted-zh",
+    "language": "zh",
+    "duration_seconds": 83.72,
+    "annotated_issue_count": 0,
+    "topic": "美术设计",
+    "tags": [
+      "normal",
+      "backchannel",
+      "interruption",
+      "side_talk"
+    ],
+    "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+    "assets": {
+      "track-a": "assets/scripted-zh-10/track-a.wav",
+      "track-b": "assets/scripted-zh-10/track-b.wav",
+      "mix": "assets/scripted-zh-10/mix.wav"
+    },
+    "utmos_a": 2.682,
+    "utmos_b": 2.983
+  }
+]

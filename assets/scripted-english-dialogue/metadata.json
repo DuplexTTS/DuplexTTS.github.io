@@ -1,0 +1,16 @@
+{
+  "id": "03",
+  "order_id": "rule-en-3",
+  "kind": "rule-en",
+  "language": "en",
+  "duration_seconds": 96.280125,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 5.0,
+    "n_mos": 5.0,
+    "m_mos": 5.0
+  },
+  "voice_source": "规则路线的固定参考声线（内部来源记录保留在论文材料中）",
+  "route_note": "脚本先提供台词，再由TTS和事件编排生成重叠、插话或旁话。",
+  "context_note": "规则数据左轨包含角色 A 与第三人 C，右轨为 B。"
+}

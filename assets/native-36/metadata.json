@@ -1,0 +1,34 @@
+{
+  "slug": "native-36",
+  "id": "36",
+  "route": "native",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 4.5,
+    "n_mos": 4.5,
+    "m_mos": 5.0,
+    "adherence": 4.5
+  },
+  "annotated_issue_count": 0,
+  "scene": "Two relatives talk after weeks of sharing care for an older family member. One feels guilty about needing a day away, while the other is exhausted and afraid that any discussion of limits will sound selfish.",
+  "role_a": {
+    "name": "Arden",
+    "profile": "Enjoy testing ideas and making a friendly challenge out of difficult choices. Keep the shared outcome more important than proving that you were right."
+  },
+  "role_b": {
+    "name": "Jordan",
+    "profile": "Keep the discussion moving toward an actionable choice. Be direct about tradeoffs, but do not force a decision before hearing material concerns."
+  },
+  "tags": [
+    "Support Reflection",
+    "family, caregiving, boundaries"
+  ],
+  "route_note": "Two role-conditioned streams generate content and timing through shared acoustic feedback.",
+  "assets": {
+    "track-a": "assets/native-36/track-a.wav",
+    "track-b": "assets/native-36/track-b.wav",
+    "mix": "assets/native-36/mix.wav"
+  }
+}

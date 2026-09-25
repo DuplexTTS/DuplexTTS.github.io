@@ -1,0 +1,26 @@
+{
+  "id": "30",
+  "order_id": "iclr-2027-wave001-000455",
+  "kind": "r79",
+  "language": "en",
+  "duration_seconds": 60,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 5.0,
+    "n_mos": 4.5,
+    "m_mos": 4.5,
+    "adherence": 4.5
+  },
+  "scene": "Two community-theater organizers adapt a performance after learning that an accessibility accommodation conflicts with part of the current staging. The change is feasible but requires rehearsal, and assumptions were made without consulting the affected audience.",
+  "interaction_type": "planning",
+  "role_a": {
+    "name": "Avery",
+    "profile": "Explain difficult points in plain language and check whether the explanation landed. Adapt to questions instead of repeating the same wording."
+  },
+  "role_b": {
+    "name": "Casey",
+    "profile": "Test claims for missing assumptions and inconvenient counterexamples. Challenge ideas without dismissing the person, and acknowledge when a concern has been answered."
+  },
+  "voice_source": "LibriTTS-R clean subset (CC BY 4.0)",
+  "route_note": "两条角色流共享声学反馈，内容与时序在生成过程中自主展开。"
+}

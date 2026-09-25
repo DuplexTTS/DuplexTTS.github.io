@@ -1,0 +1,28 @@
+{
+  "slug": "scripted-zh-02",
+  "id": "02",
+  "route": "scripted-zh",
+  "language": "zh",
+  "duration_seconds": 68.84,
+  "scores": {
+    "quality_a": 5.0,
+    "quality_b": 4.5,
+    "n_mos": 5.0,
+    "m_mos": 5.0
+  },
+  "annotated_issue_count": 0,
+  "topic": "经济金融",
+  "tags": [
+    "normal",
+    "backchannel",
+    "interruption",
+    "side_talk"
+  ],
+  "route_note": "A structured script is aligned and composed into turns, backchannels, interruptions, and side talk.",
+  "context_note": "The left channel contains A and side-talk speaker C; the right channel contains B.",
+  "assets": {
+    "track-a": "assets/scripted-zh-02/track-a.wav",
+    "track-b": "assets/scripted-zh-02/track-b.wav",
+    "mix": "assets/scripted-zh-02/mix.wav"
+  }
+}

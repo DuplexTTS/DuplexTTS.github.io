@@ -9,8 +9,8 @@ cases within one short scan.
 
 ## Audience and reading order
 
-1. A reviewer first needs the paper title, authorship state, abstract, and the
-   two-route contribution.
+1. A reviewer first needs the paper title, abstract, and the two-route
+   contribution.
 2. They then need the corpus scale and the most important reported result.
 3. The Examples section should present the audio directly, with 01 visible
    without an extra selection step.
@@ -26,9 +26,11 @@ cases within one short scan.
 - Full-width sections and a short sample list; avoid nested cards and marketing
   hero composition.
 - No gradients, floating blobs, ornamental illustrations, or generic AI copy.
-- The waveform is functional evidence: render each WAV with a waveform component
-  inside a fixed, clipped panel, provide a playhead, and let a click seek the
-  audio. Keep separate A/B playback as a secondary inspection control.
+- The waveform is functional evidence: render the actual mono A and B WAVs with
+  two independent waveform components inside a fixed, clipped panel, use the
+  component's continuous renderer, align both tracks to one timeline, provide a
+  shared playhead, and let a click seek the mix. Keep the separate track players
+  as a secondary inspection control.
 
 ## Content rules
 
@@ -43,10 +45,10 @@ cases within one short scan.
 
 ## Acceptance checks
 
-- The first viewport identifies DuplexTTS, the paper title, anonymous status, and
-  the path to the audio examples.
+- The first viewport identifies DuplexTTS, the paper title, and the path to the
+  audio examples.
 - The first sample is visible in the Listen section without a selection step.
-- Every sample has an actual waveform, working mix player, visible time position,
-  and separate track controls. The waveform must stay inside its panel and never
-  overlap the sample title or metadata.
+- Every sample has two actual channel waveforms, a working mix player, visible
+  time position, and separate track controls. The waveforms must stay inside
+  their panel and never overlap the sample title or metadata.
 - The page works as a static directory on localhost and GitHub Pages.

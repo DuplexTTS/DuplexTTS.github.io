@@ -5,35 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="DuplexTTS: a scalable framework for full-duplex conversational speech synthesis and evaluation.">
   <title>DuplexTTS · Full-Duplex Conversational Speech</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=waveform-20260926-4">
 </head>
 <body>
   <header class="site-header">
     <a class="wordmark" href="#top" aria-label="DuplexTTS home"><span>Duplex</span><i>TTS</i></a>
     <nav class="site-nav" aria-label="Page sections"><a href="#examples">Examples</a><a href="#method">Method</a><a href="#results">Results</a></nav>
-    <span class="submission-status">Anonymous submission</span>
   </header>
 
   <main id="top">
     <section class="paper-hero section-shell">
       <p class="eyebrow">Full-duplex conversational speech</p>
       <h1>A Scalable Framework for<br>Full-Duplex Conversational Speech<br>Synthesis and Evaluation</h1>
-      <p class="authors">Anonymous authors</p>
       <div class="hero-rule"></div>
       <div class="hero-lower"><div class="abstract-block"><p class="label">Abstract</p><p>DuplexTTS constructs full-duplex dialogue data through two complementary routes: native autonomous generation, where two role-conditioned streams share acoustic feedback, and rule-based composition, where aligned speech events control turns, backchannels, interruptions, and side talk. A common screening and evaluation pipeline turns both routes into traceable training data.</p></div><div class="hero-side"><p class="label">This demo</p><p>Listen to the two routes, inspect their timing, and see how the resulting data changes full-duplex behavior.</p><a class="button button-dark" href="#examples">Explore audio examples <span aria-hidden="true">↓</span></a></div></div>
-      <div class="hero-links" aria-label="Paper resources"><span class="resource-placeholder"><b>Paper</b><em>Coming after publication</em></span><span class="resource-placeholder"><b>Dataset</b><em>Release link reserved</em></span><span class="resource-placeholder"><b>Code</b><em>Repository link reserved</em></span></div>
+      <div class="hero-links" aria-label="Project resources"><span class="resource-placeholder"><b>Paper</b><em>Coming soon</em></span><span class="resource-placeholder"><b>Dataset</b><em>Coming soon</em></span><span class="resource-placeholder"><b>Code</b><em>Coming soon</em></span></div>
     </section>
 
     <section class="stat-strip section-shell" aria-label="Corpus scale"><div class="stat"><strong>107,072</strong><span>dialogues generated</span></div><div class="stat"><strong>2,189<span class="unit"> h</span></strong><span>of bilingual audio</span></div><div class="stat"><strong>92,940</strong><span>dialogues kept after screening</span></div><div class="stat stat-accent"><strong>+16.60<span class="unit"> pp</span></strong><span>on full-duplex behavior</span></div></section>
 
-    <section class="examples-section section-shell" id="examples"><div class="section-heading"><div><p class="eyebrow">Audio examples</p><h2>Hear the data.</h2></div><p>Each sample is a stereo conversation. The waveform follows the actual mix; open Tracks when you want to inspect A and B separately.</p></div><div class="sample-grid" id="sample-grid" aria-label="Audio examples"></div></section>
+    <section class="examples-section section-shell" id="examples"><div class="section-heading"><div><p class="eyebrow">Audio examples</p><h2>Hear the data.</h2></div><p>Each sample is a stereo conversation. The two waveforms show the actual A and B tracks on the same timeline; open Tracks for independent playback.</p></div><div class="sample-grid" id="sample-grid" aria-label="Audio examples"></div></section>
 
     <section class="method-section section-shell" id="method"><div class="section-heading method-heading"><div><p class="eyebrow">How it works</p><h2>Two routes.<br>One data pipeline.</h2></div><p>Autonomous generation gives the model room to develop an exchange. Scripted composition gives the researcher direct control over interaction events. Both routes end in the same screening and export process.</p></div><figure class="overview-figure"><img src="figures/duplextts-overview.png" alt="DuplexTTS overview: autonomous acoustic interaction and scripted event composition flow into common quality screening"><figcaption>The routes differ in how content and timing are produced; the output remains synchronized, separated, and traceable.</figcaption></figure><div class="route-columns"><article class="route-column route-column-blue"><div class="route-heading"><span class="route-index">01</span><h3>Autonomous generation</h3></div><p>Two role-conditioned streams share the acoustic feedback of the conversation. Words and timing emerge together.</p><div class="route-tags"><span>scenario</span><span>two roles</span><span>shared audio</span></div></article><article class="route-column route-column-orange"><div class="route-heading"><span class="route-index">02</span><h3>Scripted composition</h3></div><p>Written utterances are synthesized, aligned, and placed on a common timeline. Interaction events become controllable.</p><div class="route-tags"><span>script</span><span>alignment</span><span>overlap</span></div></article></div></section>
 
     <section class="results-section section-shell" id="results"><div class="section-heading results-heading"><div><p class="eyebrow">Evidence</p><h2>More data.<br>More behavior.</h2></div><p>The corpus is useful when it sounds plausible and teaches a model when to respond, continue, and stay quiet.</p></div><div class="evidence-grid"><article class="evidence-panel human-panel"><div class="panel-label">Human listening · 100 dialogues</div><h3>Listeners heard natural, meaningful exchanges.</h3><img src="figures/human-quality.png" alt="Human ratings for interaction naturalness and content meaningfulness"><p class="panel-note">Two listeners · 1–5 scale · higher is better</p></article><article class="evidence-panel benchmark-panel"><div class="panel-label">Downstream training · Full-Duplex-Bench</div><h3>Mixed data improves expected behavior.</h3><div class="benchmark-number">43.03<span>%</span></div><p class="benchmark-caption">macro expected-behavior accuracy after training on both routes</p><div class="benchmark-bars"><div class="bar-row"><span>Original</span><div class="bar"><i style="width:61.4%"></i></div><b>26.43</b></div><div class="bar-row"><span>Native</span><div class="bar"><i style="width:58.8%"></i></div><b>25.31</b></div><div class="bar-row"><span>Rule</span><div class="bar"><i style="width:88%"></i></div><b>37.89</b></div><div class="bar-row bar-row-highlight"><span>Mixed</span><div class="bar"><i style="width:100%"></i></div><b>43.03</b></div></div><p class="panel-note">+16.60 percentage points over the original model</p></article></div><div class="interaction-line"><div class="interaction-copy"><p class="eyebrow">The behavior we keep</p><h3>Turn exchange, overlap, backchannel, side talk.</h3><p>Full-duplex speech is more than alternating sentences. The corpus records who speaks, when they enter, and what the other side hears.</p></div><div class="event-list"><span class="event event-blue">turn exchange</span><span class="event event-yellow">backchannel</span><span class="event event-orange">interruption</span><span class="event event-purple">side talk</span></div></div></section>
 
-    <footer class="site-footer section-shell"><div class="footer-mark">Duplex<span>TTS</span></div><span>Anonymous paper · ICLR 2027</span><a href="#top">Back to top ↑</a></footer>
+    <footer class="site-footer section-shell"><div class="footer-mark">Duplex<span>TTS</span></div><span>Full-duplex conversational speech</span><a href="#top">Back to top ↑</a></footer>
   </main>
-  <script src="vendor/wavesurfer.min.js"></script><script src="app.js"></script>
+  <script src="vendor/wavesurfer.min.js?v=waveform-20260926-4"></script><script src="app.js?v=waveform-20260926-4"></script>
 </body>
 </html>

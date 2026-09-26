@@ -1,10 +1,10 @@
 # DuplexTTS Demo Page
 
-This directory is a self-contained static demo page for the anonymous paper
-submission. It presents the paper title, anonymous author placeholder, abstract,
-and publication-resource placeholders first, then offers six representative
-audio examples selected from the existing two-listener evaluation. The selection
-is editorial; it is not an unseen automatic ranking pass.
+This directory is a self-contained static demo page for DuplexTTS. It presents
+the paper title, abstract, and project-resource placeholders first, then offers
+six representative audio examples selected from the existing two-listener
+evaluation. The selection is editorial; it is not an unseen automatic ranking
+pass.
 
 ## Selection
 
@@ -17,9 +17,12 @@ is editorial; it is not an unseen automatic ranking pass.
   criterion. The left channel contains scripted speaker A and side-talk
   speaker C; the right channel contains B.
 
-The page keeps the stereo mix primary. Wavesurfer renders each actual WAV inside
-a fixed waveform panel; separate A/B tracks are available for inspection. If a
-browser cannot decode a waveform, the same card exposes a native audio fallback.
+The page keeps the stereo mix primary. Two independent Wavesurfer instances
+render the actual mono A and B WAVs inside a fixed panel on a shared timeline;
+the mix is used only for listening. The cards use Wavesurfer's native continuous
+waveform renderer rather than the compact bar renderer. Separate A/B tracks are
+available for inspection. If a browser cannot decode a waveform, the same card
+exposes a native audio fallback.
 The route diagram, listening plot, and benchmark result carry the main explanation.
 The files in this directory are copies of existing archived WAVs. Source IDs,
 scores, route descriptions, and input summaries are in `assets.json` and the
@@ -35,5 +38,4 @@ python -m http.server 8769 --directory demo
 ```
 
 Then open <http://127.0.0.1:8769/>. The page has no build step or external
-runtime dependency and is suitable for copying into an anonymous GitHub Pages
-repository later.
+runtime dependency and is suitable for copying into a GitHub Pages repository.
